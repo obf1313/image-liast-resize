@@ -19,7 +19,8 @@
     "size": "size-limit",
     "analyze": "size-limit --why",
     "predeploy": "npm run build && cd example && npm run build",
-    "deploy": "gh-pages -d ./example/dist"
+    "deploy": "gh-pages -d ./example/dist",
+    "release": "np --no-yarn --no-tests --no-cleanup"
   },
   "peerDependencies": {
     "react": ">=16"
@@ -53,6 +54,7 @@
     "@types/react": "^16.9.51",
     "@types/react-dom": "^16.9.8",
     "husky": "^4.3.0",
+    "np": "^6.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "size-limit": "^4.6.0",
