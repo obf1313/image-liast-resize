@@ -20,7 +20,7 @@
     "analyze": "size-limit --why",
     "predeploy": "npm run build && cd example && npm run build",
     "deploy": "gh-pages -d ./example/dist",
-    "release": "np --no-yarn --no-tests --no-cleanup"
+    "release": "np --no-yarn --no-tests --no-cleanup --branch=main"
   },
   "peerDependencies": {
     "react": ">=16"
