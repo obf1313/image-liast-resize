@@ -21,7 +21,7 @@ npm install image-list-resize
 import * as ReactDOM from 'react-dom';
 import * as React from 'react';
 import Mock, { Random } from 'mockjs';
-import ImageList from '../.'; // 此处存在 parcel alias 见下文
+import ImageList from 'image-list-resize';
 const App = () => {
   // 初始化图片列表
   const initImageList = () => {
